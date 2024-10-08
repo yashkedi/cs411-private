@@ -1,0 +1,42 @@
+Agile
+
+1)Complete these user stories:
+
+As a vanilla Git power-user who has never seen GiggleGit before, I want to easily install and set up GiggleGit so I can rapidly test its functionality without having to make significant changes to my setup.
+
+As a team lead onboarding an experienced GiggleGit user, I want to make sure my team can seamlessly switch from standard Git merges to meme-based merges without experiencing any loss in output.
+
+2)Create a third user story, one task for this user story, and two associated tickets.
+
+User Story:
+As a software engineer for a mental health app, I want to choose a specific meme category so that I can personalize the merge experience with mental health-related memes.
+
+Task: Implement meme category selection for mental health-related memes in the merge process.
+Ticket 1: Add meme category selection feature to the merge process.
+- Create a dropdown menu or selection interface that allows users to choose from different meme categories, specifically including mental health-related memes.
+Ticket 2: Create a library of mental health-related memes for the meme selection feature.
+- Store the memes in a database or relevant system that integrates with the meme category selection feature.
+ 
+3)This is not a user story. Why not? What is it?
+ - As a user I want to be able to authenticate on a new machine 
+As it does not clarify the goals beyond authentication, this falls short of becoming a user story. When a user wants to access settings or repositories from a different workstation, for example, a user story should explain how this capability helps the user achieve that objective.
+
+As a returning user, I want to authenticate on a different device so I do not have to go through the setup process again and can continue where I left off with my job.
+
+Formal Requirements
+
+Goal: Make sure users find SnickerSync entertaining and engaging by enabling them to sync code with memes. Gather insightful input from the user research to evaluate the effect on user happiness and workflow.
+
+Non-Goal: Our goal for this user research is not to maximize SnickerSync performance. 
+
+Non-functional Requirement 1: Access Control
+Functional Requirements:
+- Implement role-based access control (RBAC) where only PMs and designated developers can modify the meme categories used in SnickerSync.
+- Create a logging system that tracks all changes made to the snickering concepts, including which PM or developer made the changes, the time of the change, and what was modified.
+
+Non-functional Requirement 2: User Study Management
+Functional Requirements:
+- Create a random assignment algorithm that divides users into either control or experimental groups at the start of the study.
+- Store and persist group assignments so that users stay in their designated group for the entirety of the study. This ensures consistency in the feedback collected from each group.
+
+
